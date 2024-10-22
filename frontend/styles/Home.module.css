@@ -1,0 +1,57 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 80vh;
+  padding: 4rem 0;
+}
+
+.title {
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  width: 100vw;
+  background-color: rgb(125, 3, 3);
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #7D0303;
+  height: 50vh;
+  width: 80vw;
+  border-radius: 30px;
+  padding: 1rem;
+  margin: 1em;
+}
+
+
+.book {
+  width: 30vh;
+  height: 40vh;
+  background-color: rgb(145, 87, 87);
+  border-radius: 20px;
+  padding: 10px;
+  margin-right: 2em;
+  margin-left: 1em;
+}
